@@ -43,15 +43,6 @@ function showSpecificSlide(n) {
 }
 
 
-// Função para alterar a cor da barra de navegação ao rolar a página
-window.addEventListener('scroll', function() {
-    const nav = document.querySelector('nav');
-    if (window.scrollY > 50) {
-        nav.style.backgroundColor = '#555';
-    } else {
-        nav.style.backgroundColor = '#333';
-    }
-});
 
 // Função para verificar o formulário antes de enviar (na página de contato)
 const form = document.querySelector('form');

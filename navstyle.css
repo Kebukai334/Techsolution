@@ -58,7 +58,7 @@ nav a:hover {
 
 /* Barra de Pesquisa */
 .search-bar {
-    display: flex;
+    display: left;
     align-items: center;
 }
 
